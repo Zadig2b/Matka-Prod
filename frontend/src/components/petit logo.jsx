@@ -90,8 +90,8 @@ export default function PetitLogo(props){
 <path d="M125.06 127.831C124.939 127.496 124.925 126.948 125.029 126.608L130.026 110.199C130.13 109.859 130.312 109.854 130.433 110.189L136.102 125.874C136.223 126.209 136.237 126.756 136.133 127.097L131.135 143.505C131.032 143.846 130.849 143.851 130.728 143.516L125.06 127.831Z" fill="#F5F5F5"/>
 </g>
 <defs>
-<filter id="filter0_d_8_6" x="0" y="0" width="253" height="253" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter0_d_8_6" x="0" y="0" width="253" height="253" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="2"/>

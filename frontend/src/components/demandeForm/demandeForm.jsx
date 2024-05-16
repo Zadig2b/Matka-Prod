@@ -30,11 +30,20 @@ export default function DemandeForm(props) {
       .then((response) => response.json())
       .then((data) => {
         console.log("Demande submitted successfully:", data);
+        rebuildCardWithSuccessMessage()
       })
       .catch((error) => {
         console.error("Error submitting demande:", error);
       });
   };
+
+    function rebuildCardWithSuccessMessage(){
+      //select card-form div, empty it and rebuild it with a success message
+      const cardFormDiv = document.querySelector(".card-form");
+      cardFormDiv.innerHTML = "";
+      cardFormDiv.innerHTML = "<h2> Merci pour votre confiance! <br> Votre demande a bien été prise en compte.</h2> <br> <p> Un(e) de nos voyagistes vous recontactera sous 48h. <br> cet échange aura pour but de vous donner plus de détails sur le voyage et finaliser votre réservation.</p>";
+
+   }
 
   return (
     <form onSubmit={handleSubmit}>
