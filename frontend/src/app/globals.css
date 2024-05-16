@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+
+}
+select {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  font-size: large;
+
+
+}
+
+h1, h2 {
+  background-color: #ffffff;
+  color: rgba(65, 105, 142, 1);
+  /* color: rgb(123, 213, 255); */
+  width: fit-content;
+  margin: 20px;
+  padding: 10px;
+  /* border-radius: 20px; */
+  box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.06);  
+
+
+}
+
+.logoSvg {
+  transform: scale(0.2);
+  
+  
+}
+#logo {
+  height: 50px;
+}
+
+#icône {
+  width: 200px;
+
+}
+a:link { 
+  text-decoration: none; 
+  font-weight: bold;
+} 
+
+a:hover { 
+  font-size: large; 
+} 
+
+
+
+
+@font-face {
+    font-family: "Lexend";  
+    src: local("LexendDecaRegular"),
+      url("./../fonts/LexendDecaRegular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Lexend2";   
+    src: local("LexendDeca[wght]"),
+      url("./../fonts/LexendDeca[wght].ttf") format("truetype");
+  }
+  
+

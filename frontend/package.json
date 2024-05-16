@@ -1,0 +1,19 @@
+{
+  "name": "matka",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.11.2",
+    "bootstrap": "^5.3.3",
+    "next": "14.2.3",
+    "nice-forms.css": "^0.1.7",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}

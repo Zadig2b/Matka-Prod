@@ -1,0 +1,33 @@
+.custom-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+  
+  }
+
+.travel-card {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    max-height: 400px;
+    width: 400px;
+
+}
+
+.card-header {
+    
+}
+.card-img {
+  width: 40vw;
+}
+
+
+  
